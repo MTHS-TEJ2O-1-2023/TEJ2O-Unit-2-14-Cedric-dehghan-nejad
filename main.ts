@@ -16,7 +16,7 @@ basic.clearScreen()
 
 // when "A" is pressed, the pixels move down in a diagnolly
 input.onButtonPressed(Button.A, function () {
-    // setup
+  // setup
   basic.clearScreen()
   loopCounter = 0
   sprite = game.createSprite(0, 0)
